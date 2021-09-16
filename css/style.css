@@ -3,20 +3,32 @@
 
 body {
     background-image: url("../img/background.png");
-    font-family: Arial, sans-serif;
-    font-size: 12px;
+    /* font-family: Arial, sans-serif; */
+    /* font-size: 12px; */
 }
 
 #container {
     background-color: #fff;
+    border-radius: 20px;
     margin: 0 auto;
-    width: 930px;
+    width: 80%;
+    padding: 20px;
 }
 
-/* le plan width: 500px; height: 350px */
+figure {
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
 
-main {
-    /* display: flex; */
+.legend-photo {
+    background-color: #000;
+    height: 20px;
+    color: white;
+    text-align: center;
+    opacity: 0.8;
 }
 
 #menu {
@@ -32,10 +44,12 @@ main {
 }
 
 #menu:hover {
-    color:  #EB43A3;
+    cursor: crosshair;
+    color: black;
 }
 
 h1 {
+    font-family: 'Courgette', cursive;
     text-align: center;
     color: #C55394;
 }
@@ -47,12 +61,17 @@ h1 {
 
 .images {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+    /* justify-content: space-between; */
+    /* margin: 0 auto; */
 }
 
 .images-licorne {
-    margin: 0 auto;
     width: 200px;
-    height: 200px;
+
+}
+
+.images-licorne figure{
 }
 
